@@ -50,7 +50,7 @@ i.c = 3 # Error
 
 # Property()
 class Prop:
-  def __ini__(self):
+  def __init__(self):
     self.__x = 0
   def getx(self):
     return self.__x
@@ -62,7 +62,7 @@ i.x # Error
 i.getx() # 0
 
 class Prop:
-  def __ini__(self):
+  def __init__(self):
     self.__x = 0
   def getx(self):
     return self.__x
