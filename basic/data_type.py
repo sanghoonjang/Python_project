@@ -1,13 +1,15 @@
-# 변수
+# Variable
 pi = 3.141592
 
-# 문자열
+
+# Text
 spam = "spam"
 spam2 = "sspam"
 
 spam + spam2 # spamsspam
 
-# 리스트
+
+# List
 temp = [25.5, 36.5, 10, 43, 27.1]
 
 temp[0] # 25.5
@@ -37,7 +39,8 @@ sum(team) # 660
 min(team) # 150
 max(team) # 180
 
-# 딕셔너리
+
+# Dictionary
 dic = {1:"apple",
        2:"banana",
        3:"orange",
@@ -54,12 +57,12 @@ dic # {1:"mango", 2:"banana", 3:"orange", 4:"kiwi", 5:"apple"}
 del dic[5]
 dic # {1:"mango", 2:"banana", 3:"orange", 4:"kiwi"}
 
-# set
+# Set
 li = [1,1,1,2,3,4,5]
 seet = set(li)
 seet # {1,2,3,4,5}
 
-# tuple
+# Tuple
 month_name = ("January", "February", "March", "April", "May", "June", "July")
 month_name[1] # February
 
