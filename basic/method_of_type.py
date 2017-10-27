@@ -1,4 +1,4 @@
-#문자열
+# text type
 str = "a b c d e"
 
 str2 = str.replace("a", "f")
@@ -30,7 +30,8 @@ str_lower = str_upper.lower() # "a b c d e"
 
 "{} love you".format("i") # "i love you"
 
-#리스트
+
+# list type
 team = [178, 154, 160, 180, 142]
 
 team.sort()
@@ -45,7 +46,8 @@ li.pop() # 4
 li # [5,4,2,1,1,2,3]
 li.index(5) # 0
 
-#딕셔너리
+
+# dictionary type
 dic = {1:"apple",
        2:"banana",
        3:"orange",
@@ -68,7 +70,8 @@ dic.items() # dict_items([(1, 'abokado'), (2, 'banana'), (3, 'orange'), (4, 'kiw
 
 dic.values() # dict_values(['abokado', 'banana', 'orange', 'kiwi', 'kaki', 'empty'])
 
-#set
+
+# set type
 seet = {1,2,3,4,5}
 
 seet.add(5)
