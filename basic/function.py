@@ -1,4 +1,16 @@
 # Set a function
+def pri():
+       val = [1,2,3,4]
+       for v in var:
+              print(v)
+
+pri() # 1 2 3 4
+
+def select(num):
+       val = ["apple", "banana", "orange"]
+       return var[num]
+       
+select(1) # banana
 
 
 # lambda ( Instant function )
