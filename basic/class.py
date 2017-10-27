@@ -54,7 +54,7 @@ class Prop:
     self.__x = 0
   def getx(self):
     return self.__x
-  def sets(self, x):
+  def setx(self, x):
     self.__x = x
 
 i = Prop()
@@ -66,7 +66,7 @@ class Prop:
     self.__x = 0
   def getx(self):
     return self.__x
-  def sets(self, x):
+  def setx(self, x):
     self.__x
   x = property(getx, setx)
   
