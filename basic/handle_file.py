@@ -1,3 +1,4 @@
+
 # test.txt
 # aaaaaaaa
 # bbbbbbbb
@@ -17,6 +18,7 @@ f.readlines()
 f = open("test2.txt", "w", encoding="utf-8")
 f.write("ffffffffffff")
 f.close()
+
 
 # Binary file
 imgfile = open("test.png", "rb")
