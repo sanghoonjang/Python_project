@@ -57,10 +57,12 @@ dic # {1:"mango", 2:"banana", 3:"orange", 4:"kiwi", 5:"apple"}
 del dic[5]
 dic # {1:"mango", 2:"banana", 3:"orange", 4:"kiwi"}
 
+
 # Set
 li = [1,1,1,2,3,4,5]
 seet = set(li)
 seet # {1,2,3,4,5}
+
 
 # Tuple
 month_name = ("January", "February", "March", "April", "May", "June", "July")
