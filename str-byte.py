@@ -1,27 +1,29 @@
 
 # string and byte
-a = 'abcde' # string - unicode
+s = 'abcde' # string - unicode
 b = b'abcde' # byte - 0~255
 
 
 # Decode() - Byte to String
-b2 = b.decode() # unicode
-b2 # 'abcde'
+s2 = b.decode() # unicode
+s2 # 'abcde'
 
 
 # Encode() - String to Byte
-a2 = a.encode()
-a2 # b'abcde'
+b2 = a.encode()
+b2 # b'abcde'
 
 
 # bytearray() - Be able to change byte
-bb = bytearray(b)
-bb # bytearray(b'abcde')
+ba = bytearray(b)
+ba # bytearray(b'abcde')
 
-bb[2] = ord('C') # ord() is to change text('C') to text number(67)
-bb[2] = 67 # this is same
-bb # bytearray(b'abCde')
+ba[2] = ord('C') # ord() is to change text('C') to text number(67)
+ba[2] = 67 # this is same
+ba # bytearray(b'abCde')
 
-bytes(bb) # b'abcde'
+b3 = bytes(ba)
+b3  # b'abcde'
 
-bb.decode() # 'abcde'
+s3 = ba.decode()
+s3 # 'abcde'
