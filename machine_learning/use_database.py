@@ -25,7 +25,7 @@ INSERT INTO items(name, price)VALUES("Banana", 430);
 
 conn.commit()
 
-# Drag a data
+# Retrieve a data
 cur = conn.cursor()
 cur.execute("SELECT item_id,name,price FROM items")
 item_list = cur.fetchall()
