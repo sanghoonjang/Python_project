@@ -24,6 +24,8 @@ str.startswith("a") # True
 str.strip("a") # " b c d e"
 str.strip("e") # "a b c d "
 str.strip("b") # "a b c d e"
+str4 = "   string   "
+str4.strip() # "string"
 
 str_upper = str.upper() # "A B C D E"
 str_lower = str_upper.lower() # "a b c d e"
