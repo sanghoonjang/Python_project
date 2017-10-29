@@ -1,6 +1,4 @@
 
-import csv
-
 # When use Pandas
 import pandas as pd
 
