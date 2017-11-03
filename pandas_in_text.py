@@ -6,10 +6,15 @@ import pandas as pd
 var = [1,2,3,4,5]
 
 df = pd.DataFrame(var)
-df # 
+df """   0
+      0  1
+      1  2
+      2  3
+      3  4
+      4  5 """
 
 # Change column's name
-df.columns = "var"
+df.columns = ['var']
 
 # Adding column
 df["num"] = 1
