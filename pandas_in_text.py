@@ -26,5 +26,12 @@ df["num"] = 1
 del df["num"]
 
 
+# Reading from CSV
+Location = /Users/jangsanghoon/Desktop/src_scraping/ch4/iris.csv
+df = pd.read_csv(Location,[header=None,names=['a','b']]) # The arguments in [] is option.
+# The header argument is to make header [0,1,2,3] numbers, the original header moves to next LOW.
+# The names argument is to add header, the original header moves to next LOW.
+
+
 # Export to CSV
 df.to_csv('fail_name',index=False)
