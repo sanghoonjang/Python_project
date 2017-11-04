@@ -32,6 +32,15 @@ df.loc[0:3,0] # Select Low(s) and Column(s)
 df.iloc[0:3] # By index number selecting data
 
 
+# Solting
+solted = df.solt_values(['column_name'], ascending=False)
+df['column_name'].max()
+
+# Groupby
+group = df.groupby('column_name')
+df = group.sum()
+
+
 # Reading from CSV
 Location = '/Users/jangsanghoon/Desktop/src_scraping/ch4/iris.csv'
 df = pd.read_csv(Location, [header=None,names=['a','b']] ) # The arguments in [] is option.
