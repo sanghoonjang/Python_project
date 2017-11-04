@@ -26,6 +26,12 @@ df["num"] = 1
 del df["num"]
 
 
+# Select data
+df[0] # Only select Column(s)
+df.loc[0:3,0] # Select Low(s) and Column(s)
+df.iloc[0:3] # By index number selecting data
+
+
 # Reading from CSV
 Location = '/Users/jangsanghoon/Desktop/src_scraping/ch4/iris.csv'
 df = pd.read_csv(Location, [header=None,names=['a','b']] ) # The arguments in [] is option.
