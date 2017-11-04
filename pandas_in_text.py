@@ -36,6 +36,7 @@ df.iloc[0:3] # By index number selecting data
 solted = df.solt_values(['column_name'], ascending=False)
 df['column_name'].max()
 
+
 # Groupby
 group = df.groupby('column_name')
 df = group.sum()
@@ -49,4 +50,9 @@ df = pd.read_csv(Location, [header=None,names=['a','b']] ) # The arguments in []
 
 
 # Export to CSV
-df.to_csv('fail_name',index=False)
+df.to_csv('file_name.csv',index=False)
+
+
+# To JSON From JSON
+df.to_json('file_name.json')
+df2 = pd.read_json('file_name.json')
