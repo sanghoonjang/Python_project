@@ -56,3 +56,11 @@ df.to_csv('file_name.csv',index=False)
 # To JSON From JSON
 df.to_json('file_name.json')
 df2 = pd.read_json('file_name.json')
+
+# Zip
+i = ['a','b']
+j = [1,2]
+
+li = list(zip(i,j)) # Output of zip is Tuple
+li # [('a', 1), ('b', 2)]
+
